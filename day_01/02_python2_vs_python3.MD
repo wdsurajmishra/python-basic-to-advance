@@ -57,3 +57,31 @@
     except Exception as e:
         print(e)
     ```
+
+    ## Interview Question
+
+    ### What are the key differences between Python 2 and Python 3?
+
+    When preparing for an interview, it's important to understand the major differences between Python 2 and Python 3. Here are some key points to consider:
+
+    1. **Print Statement vs Print Function**:
+        - Python 2: `print` is a statement.
+        - Python 3: `print` is a function.
+
+    2. **Integer Division**:
+        - Python 2: Division of two integers results in an integer.
+        - Python 3: Division of two integers results in a float.
+
+    3. **Unicode Handling**:
+        - Python 2: `str` type is for bytes, `unicode` type is for Unicode characters.
+        - Python 3: `str` type is for Unicode characters, `bytes` type is for bytes.
+
+    4. **Iterators**:
+        - Python 2: Uses `xrange` for creating iterators.
+        - Python 3: Uses `range` for creating iterators.
+
+    5. **Exception Handling**:
+        - Python 2: Uses a comma to separate the exception type and variable.
+        - Python 3: Uses the `as` keyword to separate the exception type and variable.
+
+    Understanding these differences can help you write more compatible and efficient code, and demonstrate your knowledge during an interview.

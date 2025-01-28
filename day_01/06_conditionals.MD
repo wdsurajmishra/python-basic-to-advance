@@ -69,3 +69,39 @@ if not x > 5:
 ```
 
 Understanding and using conditional logic effectively is crucial for controlling the flow of your programs and making decisions based on different conditions.
+
+## Interview Questions
+
+Here are some common interview questions related to conditional logic in Python:
+
+1. **What is a conditional statement in Python?**
+    - Explain the purpose of conditional statements and how they are used in Python.
+
+2. **How does the `if` statement work in Python?**
+    - Describe the syntax and provide an example of an `if` statement.
+
+3. **What is the difference between `if`, `elif`, and `else`?**
+    - Explain the use cases for each keyword and how they differ from each other.
+
+4. **Can you nest `if` statements in Python?**
+    - Provide an example of nested `if` statements and explain how they work.
+
+5. **What are logical operators and how are they used in conditional statements?**
+    - Discuss the `and`, `or`, and `not` operators with examples.
+
+6. **How would you write a conditional statement to check multiple conditions?**
+    - Demonstrate how to use logical operators to combine multiple conditions in a single `if` statement.
+
+7. **What happens if none of the conditions in an `if`-`elif`-`else` chain are true?**
+    - Explain the flow of execution when none of the conditions are met.
+
+8. **Can you use conditional statements with non-boolean values?**
+    - Discuss how Python evaluates non-boolean values in conditional statements.
+
+9. **What is the importance of indentation in Python's conditional statements?**
+    - Explain the role of indentation and what happens if it is not used correctly.
+
+10. **How can you handle complex conditional logic in Python?**
+     - Provide strategies for managing complex conditions, such as using functions or breaking down conditions into simpler parts.
+
+These questions can help you prepare for interviews and deepen your understanding of conditional logic in Python.

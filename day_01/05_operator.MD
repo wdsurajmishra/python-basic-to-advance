@@ -282,3 +282,47 @@
                 a >>= 1
                 print(a)  # Output: 2 (0010)
                 ```
+    ## Interview Questions
+
+    1. **What is the difference between `==` and `is` operators in Python?**
+        - `==` checks if the values of two operands are equal.
+        - `is` checks if two operands refer to the same object in memory.
+
+    2. **How does the `//` operator differ from the `/` operator in Python?**
+        - `//` performs floor division, which returns the largest integer less than or equal to the division result.
+        - `/` performs true division, which returns a floating-point result.
+
+    3. **Explain the use of the `not` operator in Python.**
+        - The `not` operator is used to invert the boolean value of its operand. If the operand is `True`, it returns `False`, and vice versa.
+
+    4. **What is the purpose of the `+=` operator in Python?**
+        - The `+=` operator adds the right operand to the left operand and assigns the result to the left operand.
+
+    5. **How do the `&` and `|` bitwise operators work in Python?**
+        - `&` performs a bitwise AND operation, where each bit of the output is `1` if the corresponding bits of both operands are `1`.
+        - `|` performs a bitwise OR operation, where each bit of the output is `1` if at least one of the corresponding bits of the operands is `1`.
+
+    6. **What is the difference between `a << 1` and `a >> 1` in Python?**
+        - `a << 1` shifts the bits of `a` to the left by one position, effectively multiplying `a` by 2.
+        - `a >> 1` shifts the bits of `a` to the right by one position, effectively dividing `a` by 2 and discarding any remainder.
+
+    7. **Can you explain the use of the `in` and `not in` operators with an example?**
+        - The `in` operator checks if a value exists within a sequence (e.g., list, string).
+            ```python
+            a = [1, 2, 3]
+            print(2 in a)  # Output: True
+            ```
+        - The `not in` operator checks if a value does not exist within a sequence.
+            ```python
+            a = [1, 2, 3]
+            print(4 not in a)  # Output: True
+            ```
+
+    8. **What is the result of `5 ** 3` in Python and why?**
+        - The result of `5 ** 3` is `125` because the `**` operator performs exponentiation, raising `5` to the power of `3`.
+
+    9. **How does the `~` bitwise operator work in Python?**
+        - The `~` operator inverts all the bits of its operand, effectively computing the bitwise NOT. For example, `~5` results in `-6`.
+
+    10. **What is the difference between `a += b` and `a = a + b`?**
+        - Both `a += b` and `a = a + b` perform the same operation of adding `b` to `a` and assigning the result to `a`. However, `a += b` is an in-place operation and may be more efficient for mutable objects.
